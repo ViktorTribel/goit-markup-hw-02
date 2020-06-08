@@ -1,0 +1,76 @@
+.page {
+  color: #212121;
+  background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+/* цвет основного текста #212121 (чорный)*/
+/* вторичный цвет текста #757575 (серый)*/
+/* цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA*/
+/* белый  #FFFFFF*/
+/* акцент #2196F3*/
+/* цвет подвала #2F303A*/
+.logo {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-second {
+  color: #2196f3;
+}
+.logo:hover,
+.logo-second:hover {
+  color: #2196f3;
+}
+
+/*site-nav*/
+.site-nav .link {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/*auth-nav*/
+.info {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.info:hover,
+.info:focus {
+  color: #2196f3;
+}
+/*section*/
+.section-title {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.section .text-title {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.team-list {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.1;
+}
+/*feature*/
+.feature-list .title {
+  color: #212121;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.feature-list .text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+}
