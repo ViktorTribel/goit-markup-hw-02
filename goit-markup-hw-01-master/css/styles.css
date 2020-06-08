@@ -63,6 +63,19 @@
   font-size: 16px;
   line-height: 1.1;
 }
+.section .work-list {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.1;
+}
+.section .email {
+  color: #757575;
+}
+/*ameil*/
+.email:hover,
+.email:focus {
+  color: #2196f3;
+}
 /*feature*/
 .feature-list .title {
   color: #212121;
@@ -73,4 +86,8 @@
   color: #757575;
   font-size: 14px;
   line-height: 1.7;
+}
+/*customers-img*/
+.section .img-hover:hover {
+  color: #2196f3;
 }
