@@ -10,6 +10,8 @@
 .page {
   color: var(--primary-text-color);
   background-color: var(--background-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -19,6 +21,7 @@
 .logo {
   font-size: 26px;
   line-height: 1.2;
+  font-family: Raleway;
 }
 .logo-second {
   color: var(--accent-color);
@@ -31,6 +34,7 @@
 /*site-nav*/
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
@@ -42,6 +46,7 @@
 /*auth-nav*/
 .info {
   color: var(--secondary-text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
@@ -52,16 +57,19 @@
 /*section*/
 .section-title {
   color: var(--primary-text-color);
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.1;
 }
 .section .text-title {
   color: var(--whit-color);
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
 }
 .team-list {
   color: var(--primary-text-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
 }
