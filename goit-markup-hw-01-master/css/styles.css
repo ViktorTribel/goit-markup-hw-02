@@ -94,11 +94,12 @@
   color: var(--accent-color);
 }
 .button {
-  color: var(--primary-text-color--);
-  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
 }
 
-.buton .primary {
-  background-color: var(--accent-color);
+.button:hover,
+.button:focus {
   color: var(--whit-color);
+  background-color: var(--accent-color);
 }
