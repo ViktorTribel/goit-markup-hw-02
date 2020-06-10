@@ -78,26 +78,40 @@
 /*section*/
 .section-title {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.1;
+  text-align: center;
 }
 .section .text-title {
   color: var(--whit-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
 }
 .team-list {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
+  text-align: center;
 }
 .section .work-list {
   color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.1;
+  text-align: center;
 }
 .section .email {
   color: var(--secondary-text-color);
@@ -110,11 +124,18 @@
 /*feature*/
 .feature-list .title {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 .feature-list .text {
   color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -125,15 +146,52 @@
 .button {
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
-  font-family: inherit;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
+  display: flex;
   align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button:hover,
 .button:focus {
   color: var(--whit-color);
   background-color: var(--accent-color);
+}
+.adres {
+  color: var(--whit-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adres:hover,
+.adres:focus {
+  color: var(--accent-color);
+}
+.adres-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adres-info:hover,
+.adres-info:focus {
+  color: var(--accent-color);
+}
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
