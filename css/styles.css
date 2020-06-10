@@ -210,3 +210,29 @@
   color: var(--whit-color);
   background-color: var(--accent-color);
 }
+/*option-list*/
+.option-list .menu {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.option-list .addition {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 8;
+}
+.option-list .text-addition {
+  color: var(--whit-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
