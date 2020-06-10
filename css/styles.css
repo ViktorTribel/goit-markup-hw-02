@@ -237,3 +237,12 @@
   font-size: 18px;
   line-height: 1.5;
 }
+.mailing {
+  color: var(--whit-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
