@@ -44,11 +44,13 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
 /*auth-nav*/
 .info {
   color: var(--secondary-text-color);
