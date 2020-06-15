@@ -7,6 +7,10 @@
   --accent-color: #2196f3;
   --footer-color: #2f303a;
 }
+a {
+  text-decoration: none;
+  font-style: normal;
+}
 .page {
   color: var(--primary-text-color);
   background-color: var(--background-color);
@@ -257,5 +261,7 @@
   line-height: 1.8;
   letter-spacing: 0.06em;
 }
+
 .button-secondary {
+  color: var(--whit-color);
 }
